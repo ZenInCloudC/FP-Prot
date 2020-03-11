@@ -138,7 +138,7 @@ describe('Create Proposal', function() {
     browser.driver.findElement(by.xpath("//button[@class='btn save-btn float-right']")).click();
     browser.sleep('7000');
     browser.driver.findElement(by.id("chkContact298")).click();
-    browser.sleep('3000');
+    browser.sleep('5000');
     browser.driver.findElement(by.xpath("//button[@class='btn btn-outline-secondary calendar']//img")).click();
     browser.sleep('3000');
     var today = new Date();
